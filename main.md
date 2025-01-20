@@ -14,14 +14,14 @@ header-includes:
 
 # Yangyuanchen Liu
 
-3611 University Drive, Durham, NC 27707 \hfill|\hfill [yangyc.liu@duke.edu](mailto:yangyc.liu@duke.edu) \hfill|\hfill (+1) 984-377-9517 \hfill|\hfill [Google Scholar](https://scholar.google.com/citations?hl=zh-CN&user=Ay-D1zgAAAAJ)
+5837 Western Run, Baltimore, MD 21209 \hfill|\hfill [yliu664@jh.edu](mailto:yliu664@jh.edu) \hfill|\hfill (+1) 984-377-9517 \hfill|\hfill [Google Scholar](https://scholar.google.com/citations?hl=zh-CN&user=Ay-D1zgAAAAJ)
 
 
 ## Education
 \vspace{1mm}
 \hrule
 
-**Doctor of Philosophy (PhD)** --- Sep 2020 -- Sep 2024 (expected) \hfill  _Duke University_, Durham, US
+**Doctor of Philosophy (PhD)** --- Sep 2020 -- Sep 2024 \hfill  _Duke University_, Durham, US
 
 - Major: Mechanical Engineering, Advisor: John Dolbow
 
@@ -37,8 +37,9 @@ header-includes:
 \vspace{1mm}
 \hrule
 
+**Postdoctoral Fellow** -- Oct 2024 -- Oct 2025 \hfill Johns Hopkins University, Baltimore, MD
 
-**Research Aide Technical** -- May 2023 -- Aug 2023 \hfill Argonne National Lab, Lemont, US
+**Research Aide Technical** -- May 2023 -- Aug 2023 \hfill Argonne National Lab, Lemont, IL
 
 <!-- * FEM software (MOOSE) development
 * Model-based simulations -->
