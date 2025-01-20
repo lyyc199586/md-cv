@@ -58,6 +58,5 @@ Pandoc filters can be used to modify the content or formatting of the markdown f
 
 The `filters/` directory contains custom filters, such as:
 
-- `custom-filter.py`: A sample custom filter script written in Python.
 - `multibib.lua`: Lua filter for creating multiple bibliographies.
 - `highlight-authors.lua`: Lua filter for highlighting authors in the bibliography.
