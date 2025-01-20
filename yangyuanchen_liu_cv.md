@@ -39,14 +39,14 @@ header-includes:
 \hrule
 \vspace{1mm}
 
-**Postdoctoral Fellow** --- Oct 2024 --- Oct 2025 $\hfill$ Johns Hopkins University, Baltimore, MD
+**Postdoctoral Fellow** --- Oct 2024 --- Oct 2025 $\hfill$ _Johns Hopkins University_, Baltimore, MD
 
-**Research Aide Technical** --- May 2023 --- Aug 2023 $\hfill$ Argonne National Lab, Lemont, IL
+**Research Aide Technical** --- May 2023 --- Aug 2023 $\hfill$ _Argonne National Lab_, Lemont, IL
 
 <!-- * FEM software (MOOSE) development
 * Model-based simulations -->
 
-**Teaching Assistant** --- Aug 2020 --- May 2021 $\hfill$ Duke Kunshan University, Kunshan, China
+**Teaching Assistant** --- Aug 2020 --- May 2021 $\hfill$ _Duke Kunshan University_, Kunshan, China
 
 <!-- **Research Assistant** --- Sep 2017 --- March 2020 $\hfill$ Shanghai Jiao Tong University, Shanghai, China -->
 

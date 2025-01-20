@@ -41,14 +41,14 @@ header-includes:
 \hrule
 \vspace{2mm}
 
-**博士后研究员** --- 2024.10 --- 2025.10 $\hfill$ 约翰霍普金斯大学 (Johns Hopkins University), 巴尔的摩, 美国
+**博士后研究员** --- 2024.10 --- 2025.10 $\hfill$ _约翰霍普金斯大学_ (Johns Hopkins University), 巴尔的摩, 美国
 
-**研究助理** --- 2023.05 --- 2023.08 $\hfill$ 阿贡国家实验室 (Argonne National Lab), 莱蒙特, 美国
+**研究助理** --- 2023.05 --- 2023.08 $\hfill$ _阿贡国家实验室_ (Argonne National Lab), 莱蒙特, 美国
 
 <!-- * FEM software (MOOSE) development
 * Model-based simulations -->
 
-**助教** --- 2020.08 --- 2021.05 $\hfill$ 昆山杜克大学, 昆山, 中国
+**助教** --- 2020.08 --- 2021.05 $\hfill$ _昆山杜克大学_, 昆山, 中国
 
 <!-- **研究助理** --- 2017.09 --- 2020.03 $\hfill$ 上海交通大学, 上海, 中国 -->
 
