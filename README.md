@@ -44,7 +44,6 @@ md-cv/
 - `cv.md`: The markdown file for the English version of the CV.
 - `cv_cn.md`: The markdown file for the Chinese version of the CV.
 - `filters/`: Directory containing custom Pandoc filters.
-  - `custom-filter.py`: A sample custom filter script written in Python.
   - `multibib.lua`: Lua filter for creating multiple bibliographies.
   - `highlight-authors.lua`: Lua filter for highlighting authors in the bibliography.
 - `pub/`: Directory containing bibliography files.
