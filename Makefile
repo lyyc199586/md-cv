@@ -1,6 +1,6 @@
 # Variables for source and export documents
-SOURCE_DOC := yangyuanchen_liu_cv.md
-SOURCE_DOC_CN := yangyuanchen_liu_cv_cn.md
+SOURCE_DOC := cv.md
+SOURCE_DOC_CN := cv_cn.md
 EXPORT_DOC := $(SOURCE_DOC:.md=.pdf)
 EXPORT_DOC_CN := $(SOURCE_DOC_CN:.md=.pdf)
 
