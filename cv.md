@@ -41,6 +41,8 @@ header-includes:
 
 **Postdoctoral Fellow** --- Oct 2024 --- Oct 2025 $\hfill$ _Johns Hopkins University_, Baltimore, MD
 
+- Advisor： Somnath Ghosh
+
 **Research Aide Technical** --- May 2023 --- Aug 2023 $\hfill$ _Argonne National Lab_, Lemont, IL
 
 <!-- * FEM software (MOOSE) development

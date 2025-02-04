@@ -43,6 +43,8 @@ header-includes:
 
 **博士后研究员** --- 2024.10 --- 2025.10 $\hfill$ _约翰霍普金斯大学_ (Johns Hopkins University), 巴尔的摩, 美国
 
+- 导师： Somnath Ghosh
+
 **研究助理** --- 2023.05 --- 2023.08 $\hfill$ _阿贡国家实验室_ (Argonne National Lab), 莱蒙特, 美国
 
 <!-- * FEM software (MOOSE) development
