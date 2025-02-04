@@ -16,7 +16,7 @@ header-includes:
 
 # 刘杨元琛
 
-5837 Western Run, Baltimore, MD 21209 $\hfill|\hfill$ [yliu664@jh.edu](mailto:yliu664@jh.edu) $\hfill|\hfill$ (+1) 984-377-9517 $\hfill|\hfill$ [Google Scholar](https://scholar.google.com/citations?hl=zh-CN&user=Ay-D1zgAAAAJ)
+5837 Western Run, Baltimore, MD 21209 $\hfill|\hfill$ [yliu664@jh.edu](mailto:yliu664@jh.edu) $\hfill|\hfill$ (+1) 984-377-9517 $\hfill|\hfill$ [谷歌学术](https://scholar.google.com/citations?hl=zh-CN&user=Ay-D1zgAAAAJ) $\hfill|\hfill$ [个人主页](https://lyyc199586.github.io/) 
 
 
 ## 教育背景
