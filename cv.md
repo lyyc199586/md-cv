@@ -24,15 +24,13 @@ header-includes:
 
 **Doctor of Philosophy (PhD)** --- Sep 2020 --- Sep 2024 $\hfill$  _Duke University_, Durham, US
 
-- Major: Mechanical Engineering, Advisor: John Dolbow
+- Advisor: John Dolbow
 
 **Master of Science (MS)** --- Sep 2017 --- March 2020 $\hfill$  _Shanghai Jiao Tong University_, Shanghai, China
 
-- Major: Mechanical Engineering, Advisor: Yongxing Shen
+- Advisor: Yongxing Shen
   
 **Bachelor of Engineering (BE)** --- Sep 2013 --- July 2017 $\hfill$  _Jilin University_, Changchun, China
-
-- Materials Science and Engineering
 
 ## Employment
 \vspace{1mm}
@@ -41,7 +39,7 @@ header-includes:
 
 **Postdoctoral Fellow** --- Oct 2024 --- Oct 2025 $\hfill$ _Johns Hopkins University_, Baltimore, MD
 
-- Advisor： Somnath Ghosh
+- Advisor: Somnath Ghosh
 
 **Research Aide Technical** --- May 2023 --- Aug 2023 $\hfill$ _Argonne National Lab_, Lemont, IL
 
