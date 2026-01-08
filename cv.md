@@ -37,7 +37,7 @@ header-includes:
 \hrule
 \vspace{1mm}
 
-**Postdoctoral Fellow** --- Oct 2024 --- Oct 2025 $\hfill$ _Johns Hopkins University_, Baltimore, MD
+**Postdoctoral Fellow** --- Oct 2024 --- Oct 2026 $\hfill$ _Johns Hopkins University_, Baltimore, MD
 
 - Advisor: Somnath Ghosh
 

@@ -41,7 +41,7 @@ header-includes:
 \hrule
 \vspace{2mm}
 
-**博士后研究员** --- 2024.10 --- 2025.10 $\hfill$ _约翰霍普金斯大学_ (Johns Hopkins University), 巴尔的摩, 美国
+**博士后研究员** --- 2024.10 --- 2026.10 $\hfill$ _约翰霍普金斯大学_ (Johns Hopkins University), 巴尔的摩, 美国
 
 - 导师： Somnath Ghosh
 
@@ -54,7 +54,7 @@ header-includes:
 
 <!-- **研究助理** --- 2017.09 --- 2020.03 $\hfill$ 上海交通大学, 上海, 中国 -->
 
-## 发表论文
+## 发表论文与预印本
 \vspace{1mm}
 \hrule
 \vspace{2mm}
