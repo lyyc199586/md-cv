@@ -50,7 +50,7 @@ header-includes:
 
 <!-- **Research Assistant** --- Sep 2017 --- March 2020 $\hfill$ Shanghai Jiao Tong University, Shanghai, China -->
 
-## Publications
+## Publications and Preprints
 \vspace{1mm}
 \hrule
 \vspace{1mm}
