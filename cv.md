@@ -22,7 +22,7 @@ header-includes:
 \hrule
 \vspace{1mm}
 
-**Doctor of Philosophy (PhD)** --- Sep 2020 --- Sep 2024 $\hfill$  _Duke University_, Durham, US
+**Doctor of Philosophy (PhD)** --- Sep 2020 --- Sep 2024 $\hfill$  _Duke University_, Durham, NC
 
 - Advisor: John Dolbow
 
