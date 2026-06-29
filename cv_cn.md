@@ -64,7 +64,7 @@ header-includes:
 
 <!-- \clearpage -->
 
-## 学术会议报告
+## 学术报告
 \vspace{1mm}
 \hrule
 \vspace{1mm}

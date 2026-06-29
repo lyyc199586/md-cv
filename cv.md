@@ -60,7 +60,7 @@ header-includes:
 
 <!-- \clearpage -->
 
-## Conference Presentations
+## Presentations
 \vspace{1mm}
 \hrule
 \vspace{1mm}
