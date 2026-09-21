@@ -1,0 +1,80 @@
+name: Build and sync CVs
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "cv.md"
+      - "cv_cn.md"
+      - "cv.csl"
+      - "Makefile"
+      - "filters/**"
+      - "pub/**"
+      - ".github/workflows/build-and-sync.yml"
+  workflow_dispatch:
+
+concurrency:
+  group: build-and-sync-cvs
+  cancel-in-progress: true
+
+jobs:
+  build-and-sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    env:
+      WEBSITE_REPO_TOKEN: ${{ secrets.WEBSITE_REPO_TOKEN }}
+
+    steps:
+      - name: Check out CV source
+        uses: actions/checkout@v4
+
+      - name: Install Pandoc and LaTeX
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes pandoc texlive-xetex texlive-lang-chinese texlive-latex-extra
+
+      - name: Build PDFs
+        run: make
+
+      - name: Upload built PDFs
+        uses: actions/upload-artifact@v4
+        with:
+          name: cv-pdfs
+          path: |
+            cv.pdf
+            cv_cn.pdf
+
+      - name: Check out website
+        if: ${{ env.WEBSITE_REPO_TOKEN != '' }}
+        uses: actions/checkout@v4
+        with:
+          repository: lyyc199586/lyyc199586.github.io
+          token: ${{ env.WEBSITE_REPO_TOKEN }}
+          path: website
+
+      - name: Copy PDFs into website
+        if: ${{ env.WEBSITE_REPO_TOKEN != '' }}
+        run: |
+          install -D -m 0644 cv.pdf website/files/cv.pdf
+          install -D -m 0644 cv_cn.pdf website/files/cv_cn.pdf
+          install -D -m 0644 cv.pdf website/docs/files/cv.pdf
+          install -D -m 0644 cv_cn.pdf website/docs/files/cv_cn.pdf
+
+      - name: Commit website update
+        if: ${{ env.WEBSITE_REPO_TOKEN != '' }}
+        working-directory: website
+        run: |
+          if git diff --quiet -- files/cv.pdf files/cv_cn.pdf docs/files/cv.pdf docs/files/cv_cn.pdf; then
+            echo "Website CVs are already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add files/cv.pdf files/cv_cn.pdf docs/files/cv.pdf docs/files/cv_cn.pdf
+          git commit -m "Update generated CVs"
+          git push
+
+      - name: Report disabled website sync
+        if: ${{ env.WEBSITE_REPO_TOKEN == '' }}
+        run: echo "PDFs were built, but website sync is disabled until WEBSITE_REPO_TOKEN is configured."

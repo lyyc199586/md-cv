@@ -19,6 +19,12 @@ This will generate two PDF files:
 - `cv.pdf` (English version)
 - `cv_cn.pdf` (Chinese version)
 
+## Automatic website sync
+
+The `Build and sync CVs` GitHub Actions workflow rebuilds both PDFs after a push to `main` that changes the CV sources, bibliography, filters, CSL, or build configuration. It then copies the PDFs to both `files/` and `docs/files/` in `lyyc199586/lyyc199586.github.io`.
+
+To enable cross-repository updates, create a fine-grained personal access token with **Contents: Read and write** access to `lyyc199586/lyyc199586.github.io`, then save it in this repository under **Settings > Secrets and variables > Actions** as `WEBSITE_REPO_TOKEN`.
+
 ## Project Structure
 
 The project is organized as follows:
