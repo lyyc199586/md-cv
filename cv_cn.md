@@ -72,18 +72,14 @@ header-includes:
 ::: {#refs-conference}
 :::
 
-## 同行评审服务
+## 同行评审
 \vspace{1mm}
 \hrule
 \vspace{1mm}
 
-- International Journal for Numerical Methods in Engineering
-- International Journal for Numerical Methods in Fluids
-- Journal of Computational Physics
-- Computer Methods in Applied Mechanics and Engineering
-- SIAM Journal on Uncertainty Quantification
-- Journal of Scientific Computing
-
+- Mechanics of Materials
+- Advances in Engineering Software
+- SoftwareX
 
 
 
