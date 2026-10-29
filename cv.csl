@@ -1359,7 +1359,22 @@
     </sort>
     <layout>
       <choose>
-        <if type="bill legal_case legislation treaty" match="any">
+        <if type="paper-conference">
+          <!-- CV presentations: retain source metadata, omit authors and URLs. -->
+          <group delimiter=" | " font-weight="bold">
+            <date variable="issued"><date-part name="year"/></date>
+            <text macro="event-title"/>
+          </group>
+          <group delimiter=" | " prefix=" | ">
+            <choose>
+              <if variable="event-place"><text variable="event-place"/></if>
+              <else><text variable="publisher-place"/></else>
+            </choose>
+            <text variable="note"/>
+          </group>
+          <text variable="title" display="block"/>
+        </if>
+        <else-if type="bill legal_case legislation treaty" match="any">
           <!-- Legal items have different orders and delimiters -->
           <choose>
             <if variable="DOI URL" match="any">
@@ -1369,7 +1384,7 @@
               <text macro="legal-cites" suffix="."/>
             </else>
           </choose>
-        </if>
+        </else-if>
         <else>
           <group delimiter=" ">
             <group delimiter=". " suffix=".">

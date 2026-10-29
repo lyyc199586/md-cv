@@ -10,7 +10,7 @@ EXPORT_DOC_CN := $(SOURCE_DOC_CN:.md=.pdf)
 
 # PDF options for pandoc
 # fonts: Noto Sans CJK SC/ Noto Serif CJK SC/ WenQuanYi Micro Hei/ WenQuanYi Zen Hei/ Unifont
-PDF_OPTIONS = -V geometry:"top=2cm, bottom=1.5cm, left=2cm, right=2cm" \
+PDF_OPTIONS = -V papersize:a4 -V geometry:"top=2cm, bottom=1.5cm, left=2cm, right=2cm" \
 							--citeproc \
 							-L filters/multibib.lua \
 							-L filters/highlight-authors.lua \
@@ -26,11 +26,11 @@ all: pdf
 pdf: $(EXPORT_DOC) $(EXPORT_DOC_CN)
 
 # Rule for the English version
-$(EXPORT_DOC): $(SOURCE_DOC)
+$(EXPORT_DOC): $(SOURCE_DOC) pub/paper.bib pub/conference.bib cv.csl $(wildcard filters/*.lua) Makefile
 	pandoc $(PDF_OPTIONS) $< -o $@
 
 # Rule for the Chinese version
-$(EXPORT_DOC_CN): $(SOURCE_DOC_CN)
+$(EXPORT_DOC_CN): $(SOURCE_DOC_CN) pub/paper.bib pub/conference.bib cv.csl $(wildcard filters/*.lua) Makefile
 	pandoc $(PDF_OPTIONS) $< -o $@
 
 # Clean up generated files

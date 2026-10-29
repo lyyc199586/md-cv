@@ -7,48 +7,55 @@ nocite: |
   @*
 highlightauthors:
   - Liu, Y.
+papersize: a4
 header-includes:
-   - \usepackage{nopageno}
+   - \usepackage{fancyhdr}
+   - \pagestyle{fancy}
+   - \fancyhf{}
+   - \renewcommand{\headrulewidth}{0pt}
+   - \fancyfoot[C]{\thepage}
 ---
-\pagestyle{empty}
+\pagestyle{fancy}
 
 # Yangyuanchen Liu
 
-5837 Western Run, Baltimore, MD 21209 $\hfill|\hfill$ [yliu664@jh.edu](mailto:yliu664@jh.edu) $\hfill|\hfill$ (+1) 984-377-9517 $\hfill|\hfill$ [Google Scholar](https://scholar.google.com/citations?hl=zh-CN&user=Ay-D1zgAAAAJ)  $\hfill|\hfill$ [Personal Page](https://lyyc199586.github.io/) 
+Baltimore, MD, USA $\hfill|\hfill$ [yliu664@jh.edu](mailto:yliu664@jh.edu) $\hfill|\hfill$ (+1) 984-377-9517 $\hfill|\hfill$ [Google Scholar](https://scholar.google.com/citations?hl=zh-CN&user=Ay-D1zgAAAAJ)  $\hfill|\hfill$ [Personal Page](https://lyyc199586.github.io/)
 
+
+## Research and Teaching Experience
+\vspace{1mm}
+\hrule
+\vspace{1mm}
+
+**Postdoctoral Fellow** | Oct 2024–Present $\hfill$ _Johns Hopkins University_, Baltimore, MD
+
+- Postdoctoral advisor: Somnath Ghosh
+- Integrate scientific machine learning (neural operators) with multiscale multiphysics models for nondestructive evaluation (NDE).
+
+**Research Aide Technical** | May 2023–Aug 2023 $\hfill$ _Argonne National Lab_, Lemont, IL
+
+- MOOSE finite element software development for high-performance computing (HPC).
+
+**Teaching Assistant** | Aug 2020–May 2021 $\hfill$ _Duke Kunshan University_, Kunshan, China
+
+- Graded assignments and led recitation sessions for Linear Algebra and Stochastic Mathematics.
 
 ## Education
 \vspace{1mm}
 \hrule
 \vspace{1mm}
 
-**Doctor of Philosophy (PhD)** --- Sep 2020 --- Sep 2024 $\hfill$  _Duke University_, Durham, NC
+**Doctor of Philosophy (PhD)** | Sep 2020–Sep 2024 $\hfill$  _Duke University_, Durham, NC
 
-- Advisor: John Dolbow
+- Mechanical Engineering, Computational Mechanics track; Advisor: John Dolbow
+- Extended phase-field fracture theory explicitly incorporating material strength surfaces to dynamic loading, with large-scale simulations of crack nucleation and propagation.
+- Developed models and numerical simulations for coupled acoustics, elastodynamics, and damage, and for pulsed laser ablation.
 
-**Master of Science (MS)** --- Sep 2017 --- March 2020 $\hfill$  _Shanghai Jiao Tong University_, Shanghai, China
+**Master of Science (MS)** | Sep 2017–Mar 2020 $\hfill$  _Shanghai Jiao Tong University_, Shanghai, China
 
 - Advisor: Yongxing Shen
-  
-**Bachelor of Engineering (BE)** --- Sep 2013 --- July 2017 $\hfill$  _Jilin University_, Changchun, China
 
-## Employment
-\vspace{1mm}
-\hrule
-\vspace{1mm}
-
-**Postdoctoral Fellow** --- Oct 2024 --- Oct 2026 $\hfill$ _Johns Hopkins University_, Baltimore, MD
-
-- Advisor: Somnath Ghosh
-
-**Research Aide Technical** --- May 2023 --- Aug 2023 $\hfill$ _Argonne National Lab_, Lemont, IL
-
-<!-- * FEM software (MOOSE) development
-* Model-based simulations -->
-
-**Teaching Assistant** --- Aug 2020 --- May 2021 $\hfill$ _Duke Kunshan University_, Kunshan, China
-
-<!-- **Research Assistant** --- Sep 2017 --- March 2020 $\hfill$ Shanghai Jiao Tong University, Shanghai, China -->
+**Bachelor of Engineering (BE)** | Sep 2013–Jul 2017 $\hfill$  _Jilin University_, Changchun, China
 
 ## Publications and Preprints
 \vspace{1mm}
@@ -58,7 +65,7 @@ header-includes:
 ::: {#refs-paper}
 :::
 
-<!-- \clearpage -->
+<!-- Presentations continue after publications. -->
 
 ## Presentations
 \vspace{1mm}
@@ -68,7 +75,7 @@ header-includes:
 ::: {#refs-conference}
 :::
 
-## Peer Review Service
+## Journal Referee Service
 \vspace{1mm}
 \hrule
 \vspace{1mm}

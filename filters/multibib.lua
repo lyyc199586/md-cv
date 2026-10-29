@@ -124,6 +124,33 @@ local function create_topic_bibliography (div)
   -- First block of the result contains the dummy paragraph, second is
   -- the refs Div filled by citeproc.
   div.content = res.blocks[2].content
+  -- CV papers stay in one list: descending year, then the candidate's
+  -- first-author work. Preserve citeproc order for all remaining ties.
+  if name == 'paper' then
+    local records = {}
+    for _, ref in ipairs(utils.references(tmp_doc)) do
+      local first = (ref.author or {})[1] or {}
+      local parts = ref.issued and ref.issued['date-parts'] or {}
+      records['ref-' .. stringify(ref.id)] = {
+        year = tonumber(parts[1] and stringify(parts[1][1])) or 0,
+        first_author = stringify(first.family or '') == 'Liu'
+          and stringify(first.given or '') == 'Yangyuanchen'
+      }
+    end
+    local positions = {}
+    for i, entry in ipairs(div.content) do positions[entry.identifier] = i end
+    table.sort(div.content, function(a, b)
+      local ra, rb = records[a.identifier], records[b.identifier]
+      if ra.year ~= rb.year then return ra.year > rb.year end
+      if ra.first_author ~= rb.first_author then return ra.first_author end
+      return positions[a.identifier] < positions[b.identifier]
+    end)
+    for i, entry in ipairs(div.content) do
+      local para = entry.content[1]
+      para.content:insert(1, pandoc.Space())
+      para.content:insert(1, pandoc.Str('[' .. i .. ']'))
+    end
+  end
   -- Set the classes and attributes as citeproc did it on refs_div
   div.classes = remove_duplicates(refs_div_with_properties.classes)
   div.attributes = refs_div_with_properties.attributes
