@@ -29,7 +29,7 @@ Baltimore, MD, USA $\hfill|\hfill$ [yliu664@jh.edu](mailto:yliu664@jh.edu) $\hfi
 
 **Postdoctoral Fellow** | Oct 2024–Present $\hfill$ _Johns Hopkins University_, Baltimore, MD
 
-- Postdoctoral advisor: Somnath Ghosh
+- Postdoctoral advisor: [Somnath Ghosh](https://engineering.jhu.edu/case/faculty/somnath-ghosh/)
 - Integrate scientific machine learning (neural operators) with multiscale multiphysics models for nondestructive evaluation (NDE).
 
 **Research Aide Technical** | May 2023–Aug 2023 $\hfill$ _Argonne National Lab_, Lemont, IL
@@ -47,14 +47,15 @@ Baltimore, MD, USA $\hfill|\hfill$ [yliu664@jh.edu](mailto:yliu664@jh.edu) $\hfi
 
 **Doctor of Philosophy (PhD)** | Sep 2020–Sep 2024 $\hfill$  _Duke University_, Durham, NC
 
-- Mechanical Engineering, Computational Mechanics track; Advisor: John Dolbow
+- Mechanical Engineering, Computational Mechanics track; Advisor: [John Dolbow](https://scholars.duke.edu/person/john.dolbow)
 - Extended phase-field fracture theory explicitly incorporating material strength surfaces to dynamic loading, with large-scale simulations of crack nucleation and propagation.
 - Developed models and numerical simulations for coupled acoustics, elastodynamics, and damage, and for pulsed laser ablation.
-- Dissertation: *A computational framework for simulating crack nucleation and growth in materials subjected to dynamic loads*
+- Contributed to the development of [RACCOON](https://github.com/hugary1995/raccoon), an open-source finite element code for phase-field fracture.
+- Dissertation: [*A computational framework for simulating crack nucleation and growth in materials subjected to dynamic loads*](https://www.proquest.com/dissertations-theses/computational-framework-simulating-crack/docview/3156269231/se-2)
 
 **Master of Science (MS)** | Sep 2017–Mar 2020 $\hfill$  _Shanghai Jiao Tong University_, Shanghai, China
 
-- Advisor: Yongxing Shen
+- Advisor: [Yongxing Shen](https://gc.sjtu.edu.cn/cn/about/faculty-staff/faculty-directory/faculty-detail/118/)
 
 **Bachelor of Engineering (BE)** | Sep 2013–Jul 2017 $\hfill$  _Jilin University_, Changchun, China
 

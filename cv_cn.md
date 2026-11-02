@@ -13,6 +13,7 @@ papersize: a4
 fontsize: 10pt
 header-includes:
    - \usepackage{fancyhdr}
+   - \linespread{0.96}
    - \ctexset{section={beforeskip=1.5ex,afterskip=0.5ex}}
    - \pagestyle{fancy}
    - \fancyhf{}
@@ -34,7 +35,7 @@ header-includes:
 
 **博士后研究员** | 2024.10–至今 $\hfill$ _约翰霍普金斯大学_ (Johns Hopkins University), 巴尔的摩, 美国
 
-- 合作导师：Somnath Ghosh
+- 合作导师：[Somnath Ghosh](https://engineering.jhu.edu/case/faculty/somnath-ghosh/)
 - 结合科学机器学习（神经算子）与多尺度多物理场模型，开展无损评估（NDE）研究。
 
 **研究助理** | 2023.05–2023.08 $\hfill$ _阿贡国家实验室_ (Argonne National Lab), 莱蒙特, 美国
@@ -52,14 +53,15 @@ header-includes:
 
 **博士 (PhD)** | 2020.09–2024.09 $\hfill$  _杜克大学_ (Duke University), 达勒姆, 美国
 
-- 专业：机械工程（计算力学方向），导师：John Dolbow
+- 专业：机械工程（计算力学方向），导师：[John Dolbow](https://scholars.duke.edu/person/john.dolbow)
 - 将显式纳入材料强度面的相场断裂理论拓展至动态载荷，开展裂纹萌生与扩展的大规模模拟。
 - 开展声学–弹性动力学–损伤耦合及脉冲激光烧蚀的建模与数值模拟。
-- 博士学位论文：*A computational framework for simulating crack nucleation and growth in materials subjected to dynamic loads*
+- 参与开源相场断裂有限元软件 [RACCOON](https://github.com/hugary1995/raccoon) 的开发。
+- 博士学位论文：[*A computational framework for simulating crack nucleation and growth in materials subjected to dynamic loads*](https://www.proquest.com/dissertations-theses/computational-framework-simulating-crack/docview/3156269231/se-2)
 
 **硕士 (MS)** | 2017.09–2020.03 $\hfill$  _上海交通大学_, 上海, 中国
 
-- 专业: 机械工程, 导师: 沈泳星
+- 专业: 机械工程, 导师: [沈泳星](https://gc.sjtu.edu.cn/cn/about/faculty-staff/faculty-directory/faculty-detail/118/)
 
 **学士 (BE)** | 2013.09–2017.07 $\hfill$  _吉林大学_, 长春, 中国
 
@@ -73,7 +75,7 @@ header-includes:
 ::: {#refs-paper}
 :::
 
-<!-- Reports continue after publications. -->
+\clearpage
 
 ## 学术报告
 \vspace{1mm}
