@@ -39,7 +39,7 @@ header-includes:
 
 **研究助理** | 2023.05–2023.08 $\hfill$ _阿贡国家实验室_ (Argonne National Lab), 莱蒙特, 美国
 
-- 面向高性能计算（HPC）的 MOOSE 有限元软件开发。
+- 面向高性能计算（HPC）的 [MOOSE](https://mooseframework.inl.gov/) 有限元软件开发。
 
 **助教** | 2020.08–2021.05 $\hfill$ _昆山杜克大学_, 昆山, 中国
 
@@ -55,6 +55,7 @@ header-includes:
 - 专业：机械工程（计算力学方向），导师：John Dolbow
 - 将显式纳入材料强度面的相场断裂理论拓展至动态载荷，开展裂纹萌生与扩展的大规模模拟。
 - 开展声学–弹性动力学–损伤耦合及脉冲激光烧蚀的建模与数值模拟。
+- 博士学位论文：*A computational framework for simulating crack nucleation and growth in materials subjected to dynamic loads*
 
 **硕士 (MS)** | 2017.09–2020.03 $\hfill$  _上海交通大学_, 上海, 中国
 

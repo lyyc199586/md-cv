@@ -34,11 +34,11 @@ Baltimore, MD, USA $\hfill|\hfill$ [yliu664@jh.edu](mailto:yliu664@jh.edu) $\hfi
 
 **Research Aide Technical** | May 2023–Aug 2023 $\hfill$ _Argonne National Lab_, Lemont, IL
 
-- MOOSE finite element software development for high-performance computing (HPC).
+- [MOOSE](https://mooseframework.inl.gov/) finite element software development for high-performance computing (HPC).
 
 **Teaching Assistant** | Aug 2020–May 2021 $\hfill$ _Duke Kunshan University_, Kunshan, China
 
-- Graded assignments and led recitation sessions for Linear Algebra and Stochastic Mathematics.
+- Graded assignments and led recitation sessions for Linear Algebra and Stochastic Processes.
 
 ## Education
 \vspace{1mm}
@@ -50,6 +50,7 @@ Baltimore, MD, USA $\hfill|\hfill$ [yliu664@jh.edu](mailto:yliu664@jh.edu) $\hfi
 - Mechanical Engineering, Computational Mechanics track; Advisor: John Dolbow
 - Extended phase-field fracture theory explicitly incorporating material strength surfaces to dynamic loading, with large-scale simulations of crack nucleation and propagation.
 - Developed models and numerical simulations for coupled acoustics, elastodynamics, and damage, and for pulsed laser ablation.
+- Dissertation: *A computational framework for simulating crack nucleation and growth in materials subjected to dynamic loads*
 
 **Master of Science (MS)** | Sep 2017–Mar 2020 $\hfill$  _Shanghai Jiao Tong University_, Shanghai, China
 
